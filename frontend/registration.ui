@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registration</class>
+ <widget class="QDialog" name="Registration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(66, 66, 66);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_2">
+        <property name="styleSheet">
+         <string notr="true">QFrame{
+		background-color: rgb(85, 85, 85);
+	border-radius:5px;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_3">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="spacing">
+             <number>8</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="minimumSize">
+               <size>
+                <width>60</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>60</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap resource="../resource/asset.qrc">:/icons/asset/user-plus.svg</pixmap>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="minimumSize">
+               <size>
+                <width>380</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>380</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>10</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+}</string>
+              </property>
+              <property name="text">
+               <string>Registration</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_minimize">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>17</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+background-color: rgb(85, 85, 85);
+	border:none;
+	border-radius: 8px;
+}
+
+QPushButton:hover{	
+	background-color: rgb(120, 117, 113);
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../resource/asset.qrc">
+                <normaloff>:/icons/asset/minimize.svg</normaloff>:/icons/asset/minimize.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_maximize">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>17</width>
+                <height>17</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	
+	background-color: rgb(85, 85, 85);
+	border:none;
+	border-radius: 8px;
+}
+
+QPushButton:hover{	
+background-color: rgb(120, 117, 113);
+	
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../resource/asset.qrc">
+                <normaloff>:/icons/asset/maximize.svg</normaloff>:/icons/asset/maximize.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btn_close">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>17</width>
+                <height>17</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	background-color: rgb(85, 85, 85);
+	border:none;
+	border-radius: 8px;
+}
+
+QPushButton:hover{	
+	background-color: rgb(255, 0, 0);
+	
+}</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="../resource/asset.qrc">
+                <normaloff>:/icons/asset/x-square.svg</normaloff>:/icons/asset/x-square.svg</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame_4">
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QLineEdit" name="firstname">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>20</y>
+              <width>260</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>260</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Firstname</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="image">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>251</width>
+              <height>261</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>14</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+background-color: rgb(66, 66, 66);
+	border-radius: 10px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="../resource/asset.qrc">:/icons/asset/image.svg</pixmap>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="othername">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>90</y>
+              <width>260</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>260</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Othername</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="lastname">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>160</y>
+              <width>260</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>260</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Lastname</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="reference">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>230</y>
+              <width>260</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>260</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Reference</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="contact">
+            <property name="geometry">
+             <rect>
+              <x>359</x>
+              <y>300</y>
+              <width>201</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>180</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Contact</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="position">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>300</y>
+              <width>321</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>260</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Position</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="filename">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>370</y>
+              <width>341</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>260</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border-radius:10px;
+	padding-left: 7px;
+}
+
+QLineEdit:hover{
+	border:2px solid rgb(66, 66, 66);
+}
+
+QLineEdit:focus{
+	border:2px solid rgb(255, 255, 255);
+}</string>
+            </property>
+            <property name="placeholderText">
+             <string>Filename</string>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_reg_browse">
+            <property name="geometry">
+             <rect>
+              <x>380</x>
+              <y>370</y>
+              <width>181</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border:none;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 20px;
+}
+
+QPushButton:pressed{
+	border: 2px solid rgb(255,255,255);	
+}</string>
+            </property>
+            <property name="text">
+             <string>Browse Images</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_register">
+            <property name="geometry">
+             <rect>
+              <x>210</x>
+              <y>440</y>
+              <width>161</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border:none;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 20px;
+}
+
+QPushButton:pressed{
+	border: 2px solid rgb(255,255,255);	
+}</string>
+            </property>
+            <property name="text">
+             <string>Register</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../resource/asset.qrc">
+              <normaloff>:/icons/asset/user-plus.svg</normaloff>:/icons/asset/user-plus.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_delete">
+            <property name="geometry">
+             <rect>
+              <x>400</x>
+              <y>440</y>
+              <width>161</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border:none;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 20px;
+}
+
+QPushButton:pressed{
+	border: 2px solid rgb(255,255,255);	
+}</string>
+            </property>
+            <property name="text">
+             <string>Delete</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../resource/asset.qrc">
+              <normaloff>:/icons/asset/trash-2.svg</normaloff>:/icons/asset/trash-2.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_notification">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>520</y>
+              <width>541</width>
+              <height>111</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>MS Shell Dlg 2</family>
+              <pointsize>10</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+	background-color: rgb(66, 66, 66);
+	border-radius: 10px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Notification</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_search">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>440</y>
+              <width>161</width>
+              <height>51</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+	border:2px solid rgb(66, 66, 66);
+	border:none;
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	border-radius: 20px;
+}
+
+QPushButton:pressed{
+	border: 2px solid rgb(255,255,255);	
+}</string>
+            </property>
+            <property name="text">
+             <string>Search</string>
+            </property>
+            <property name="icon">
+             <iconset resource="../resource/asset.qrc">
+              <normaloff>:/icons/asset/search.svg</normaloff>:/icons/asset/search.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resource/asset.qrc"/>
+ </resources>
+ <connections/>
+</ui>

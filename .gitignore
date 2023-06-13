@@ -1,0 +1,5 @@
+test_code/
+build/
+dist/
+.vscode/
+weTrack.spec
