@@ -3075,7 +3075,7 @@ QPushButton:pressed{
 }</string>
                      </property>
                      <property name="text">
-                      <string>Incharge</string>
+                      <string>Position</string>
                      </property>
                      <property name="alignment">
                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

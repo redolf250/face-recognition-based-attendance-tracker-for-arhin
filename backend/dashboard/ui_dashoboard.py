@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'dashoboardfnXBBq.ui'
+## Form generated from reading UI file 'dashoboardyTTfyb.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.14.1
 ##
@@ -1903,7 +1903,7 @@ class Ui_dashboard(object):
         self.db_middlename.setText(QCoreApplication.translate("dashboard", u"Othername", None))
         self.db_firstname.setText(QCoreApplication.translate("dashboard", u"Firstname", None))
         self.db_contact.setText(QCoreApplication.translate("dashboard", u"Contact", None))
-        self.db_incharge.setText(QCoreApplication.translate("dashboard", u"Incharge", None))
+        self.db_incharge.setText(QCoreApplication.translate("dashboard", u"Position", None))
         self.search_box.setPlaceholderText(QCoreApplication.translate("dashboard", u"Search here?", None))
         self.btn_search_page.setText(QCoreApplication.translate("dashboard", u"Search", None))
         self.label_29.setText("")

@@ -433,7 +433,7 @@ class MainWindow(QMainWindow):
                     self.ui.db_lastname.setText(helper[2])
                     self.ui.db_refrence.setText(str(db_data[1]))
                     self.ui.db_contact.setText(str(db_data[3]))
-                    self.ui.status.setText(str(db_data[6]))
+                    self.ui.db_status.setText(str(db_data[6]))
                     self.ui.db_incharge.setText(db_data[8])
                     path=f'C:\\ProgramData\\weTrack\\images\\{db_data[1]}.png' 
                     self.ui.db_image_data.setPixmap(QPixmap.fromImage(path))
